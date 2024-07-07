@@ -24,10 +24,8 @@ return [
     | This is your PayMob username and password to make auth request.
     |
     */
-
-    'username' => '',
-    'password' => '',
-
+'api_key'=>'',
+   
     /*
     |--------------------------------------------------------------------------
     | PayMob integration id and iframe id
