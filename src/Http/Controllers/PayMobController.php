@@ -14,7 +14,7 @@ class PayMobController extends Controller
      * @param  int  $orderId
      * @return Response
      */
-    public function checkingOut($orderId)
+    public function checkingOut($integration_id,$orderId)
     {
         $order       = config('paymob.order.model', 'App\Order')::find($orderId);
         # code... get order user.
